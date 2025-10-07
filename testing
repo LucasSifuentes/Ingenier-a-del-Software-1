@@ -1,0 +1,34 @@
+El crecimiento es fruto del potencial acumulativo que siempre requiere tiempo. La destruccion por el contrario, es el punto de fallos concretos que pueden ocurrir en segundos y de la perdida de confianza que pueda darse en un instante
+Principal objetivo de un proyecto: desarrollar un producto de alta calidad
+	calidad tiene dimensiones
+	confiabilidad es la mas conocida
+	b
+Conceptos fundamentales
+	Defecto y desperfecto (Fault & failure)
+		Desperfecto: ocurre si el comportamiento es distinto del esperado
+		Defecto: es lo que causa el desperfecto (bug)
+		shen sofware fails: "it did exactly what it was told to do. The reason it failed is that it to do the right thing
+		"because defects are defined relative to intent, theather a behavior is a failure depends entirely the definition of intent" no es tan facil saber que es un fallo y que no
+		Oraculo de tests (se pide en parciales)
+			casos de test: tupla de entrada y salida
+	Casos de test y criterios de seleccion (existen porque hay una cantidad finita de test)
+		son reglas que necesito para elegir los test necesarios
+		el criterio de seleccion especifica las condiciones que el conjunto de casos de test debe satisfacer con respecto al programa y o a la especificacion 
+		hay dos propiedades fundamentales que esperamos de los criterios de test confiabilidad y validez (en este caso el conjunto seria exhaustivo)
+		es practicamente imposible obtener un criterio que sea confiable y valido al mismo tiempo, y que tambien sea satisfecho por una cantidad manejable de casos de test
+	
+	Test
+		La psicologia del test es importante
+			debe revelar los fecetos (contrariamente a mostrar que funciona)
+			los casos de test deben ser destructivos
+		Dos enfoques para diseñar casos de test
+			caja negra 
+			caja blanca
+		Ambos son complementarios
+	Testing de caja negra
+		el sofware a testear se trata como una caja negra
+		entrada implementacion bajo test y salida
+		premisa: el comportamiento esta especificado
+		entonces solo se definen test para el comportamiento esperaado especificado
+		para el testing de modulos : la esp producida en el diseño define el comportamiento esperado
+		para el testing del sistema: la SRS define el comportamiento esperado
