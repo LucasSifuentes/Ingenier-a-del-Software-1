@@ -1,0 +1,26 @@
+# Entorno virtual
+.venv/
+venv/
+ENV/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Bases de datos locales de SQLite
+# (Nunca subas la base de datos, solo el código que la crea)
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignorar la base de datos
+agatha_christie.db
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+
+# Archivos de dependencias de Node (si alguien usa el proyecto con Node)
+node_modules/
